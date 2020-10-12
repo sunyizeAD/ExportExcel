@@ -4,7 +4,8 @@
 
 Android10 存储策略修改，调用createNewFile报错java.io.IOException: Permission denied
 申请权限  
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+ <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  `<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>`
 仍然报错
 解决方法 
 选择停用分区存储
