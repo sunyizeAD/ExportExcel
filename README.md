@@ -7,6 +7,8 @@ Android10 存储策略修改，调用createNewFile报错java.io.IOException: Per
  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
   `<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>`
 仍然报错
+
+
 解决方法 
 选择停用分区存储
   警告：明年，主要平台版本将要求所有应用都使用分区存储，无论应用的目标 SDK 级别是多少。因此，您应该提前确保您的应用能够使用分区存储。为此，请确保针对搭载 Android 10（API 级别 29）及更高版本的设备启用了该行为。
